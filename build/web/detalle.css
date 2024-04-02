@@ -1,0 +1,100 @@
+/* Reset de márgenes y padding */
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: row; /* Cambiado a fila para alinear los elementos horizontalmente */
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(121, 121, 121, 0.5), rgba(134, 134, 134, 0.3)), url('img/faroles.png');
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+/* Estilo del contenedor de imagen */
+#image_div {
+    position: relative;
+    max-width: 30vw;
+    width: 30vw; /* Ajusta el ancho según tus necesidades */
+    height: 30vw; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 4px solid rgb(34, 34, 34);
+    top: 15%;
+}
+
+/* Estilo de la imagen */
+#image_div img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo del contenedor de información */
+#info {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.5);
+    border: 4px solid rgb(34, 34, 34);
+    text-align:left;
+    width: 40%;
+    top:15%;
+    height: 28vw;
+}
+
+/* Estilo del título de descripción */
+#desc {
+    color: #e44d26;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/* Estilo del párrafo de descripción */
+#info p {
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size:1vw ;
+    max-width: 1200px; /* Ajusta el valor según tus necesidades */
+    width: 100%; /* O ajusta a un valor específico si prefieres */
+}
+
+/* Estilo del precio */
+#precio{
+    display: inline-block;
+    color: #e44d26; /* Color naranja */
+    margin-top: 2vw;
+    font-size: 2vw;
+    border: 4px solid rgb(34, 34, 34);
+    border-radius: 8px;
+    padding: 0.3vw;
+}
+
+/* Estilo del nombre */
+#nombre {
+    font-size: 3vw;;
+    position: relative;
+    color: #ffffff;
+    
+
+}
+#foto_y_titulo{
+    position: relative;
+    top: 15%;
+    left: -2%;
+    text-align: center;
+}

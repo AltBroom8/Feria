@@ -1,0 +1,102 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(243, 165, 165, 0.5), rgba(0, 0, 0, 0.3)), url('img/fondo_Main.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+}
+header {
+    background-color: transparent; /* Color de fondo del encabezado */
+    color: white; /* Color de texto del encabezado */
+    text-align: center;
+    padding: 20px;
+}
+
+#verCarta {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    border: 2px solid white; /* Bordes blancos */
+    padding: 10px 20px;
+    width:30%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#verCarta:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+}
+#user{
+    
+    font-size: 5vw;
+    -webkit-text-stroke: 2px rgb(216, 148, 148);
+    text-stroke: 2px rgb(129, 129, 129);
+}
+h3{
+    position: absolute;
+    z-index: 2;
+    left: 24%;
+    top: 25%;
+    display:inline;
+    font-size: 3vw;
+    margin-left: 12vw;
+    background-color: white;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#carrito{
+    position: absolute;
+    left:83%;
+    top:10%;
+    display: inline-flex;
+    align-items: center;
+    max-height: 60px;
+    color: white;
+    max-width: 240px;
+    padding: 0px 20px; 
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2vw;
+    border: 2px solid white;
+}
+#carrito:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+}
+img{
+    margin-right: 5px; 
+    max-height: 100px; 
+}
+#cerrar{
+    position: absolute;
+    left:83%;
+    top:1.5%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 60px;
+    color: white;
+    max-width: 320px;
+    padding: 0px 20px; 
+    background-color: rgb(175, 76, 76);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2vw;
+    border: 2px solid white;
+}
+#cerrar:hover{
+    background-color: #a04545; /* Cambio de color al pasar el ratón */
+}

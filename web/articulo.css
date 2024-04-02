@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #ffcccc;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2vw;
+}
+
+header h3 {
+    margin: 10px 0;
+    color:rgb(241, 87, 87);
+    font-size: 2vw;
+}
+
+form button {
+    background-color: #4c82af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border: solid 1px white;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#desglose {
+    margin-left: 20%;
+    font-size: 2.5vw;
+}
+
+#cosa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+article {
+    display: flex;
+    border: 3px solid #383838;
+    padding: 10px;
+    margin: 10px;
+}
+article div {
+    display: flex;
+    flex-direction: column; /* Muestra los elementos del texto en columnas */
+    text-align: left;
+}
+article img {
+    width: 25vw;
+    height: 25vw;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+article h3 {
+    margin: 5px 0;
+}
+#volver {
+    background-color: #af4c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 1%; /* Ajusta la distancia desde la parte superior */
+    left: 1%; /* Ajusta la distancia desde la izquierda */
+    width: 8vw;
+    height: 6vh;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#volver:hover {
+    background-color: #a04545;
+}
+.nombre{
+    font-size: 4vw;
+}
+
+.precio{
+    margin-top: 1vh;
+    font-size: 3vw;
+    color: rgb(199, 72, 72);
+
+}
+.unidades{
+    margin-top: 1vh;
+    font-size: 2vw;
+    color: rgb(83, 83, 83);
+    position: relative;
+    top:50%;
+
+}
+
+
+
+#cosa2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+#error{
+    font-size:4vw;
+    border: solid 6px grey;
+}

@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Titular';
+  src: url('fonts/Brogte.otf') format('woff2');
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinea los elementos en la parte superior */
+  height: 100vh;
+  background-color: #fffacd;
+  font-family: Arial, sans-serif;
+  margin: 0; /* Asegura que no haya márgenes predeterminados */
+  background-image: url('img/portada.jpg'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centra la imagen en la pantalla */
+  /*backdrop-filter: blur(10px); /* Ajusta el valor del desenfoque según tus preferencias */
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 80px;
+  margin-top: 180px;
+   -webkit-text-stroke: 0.2px #c70404;
+  font-family: 'Titular';
+  letter-spacing: 2px;/* Cambiada a Dancing Script */
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #8b1313;
+  margin-top: -35px;
+  border-radius: 10px;
+  background-color: #fde6e6;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #8b4513;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #8b4513;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ffa500;
+}
+
+
+#acceder {
+  background-color: #d45050;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: 2px solid #ff2929; /* Agregué un borde para mayor contraste */
+}
+
+#acceder:hover {
+  background-color: #ffffff;
+  color: #d45050; /* Cambié el color del texto al pasar el ratón */
+}
+
+#playButton{
+  background-color: transparent; 
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+#play-icon{
+  width: 80px; /* Ajusta el ancho según tus necesidades */
+  height: 80px; /* Ajusta la altura según tus necesidades */
+  filter: grayscale(100%) invert(100%) sepia(100%) hue-rotate(0deg);
+}
